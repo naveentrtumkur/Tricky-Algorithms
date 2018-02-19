@@ -1,5 +1,7 @@
 // Write a function to move all the zeros to th eend.
 // Avoid using extra operations.
+// You can also swap the zeros with end elements.(If the order doesn't matter).
+// the below proposed soluution would be an efficient solution.
 
 class Solution {
    public void moveZeroes(int[] nums) {
