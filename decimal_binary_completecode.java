@@ -1,4 +1,3 @@
-// Complete code to convert decimal to binary value.
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -12,6 +11,7 @@ public class Solution {
         int nums;
         Scanner sc = new Scanner(System.in);
         nums = sc.nextInt();
+        // Actually this condition would be taken care by StringBuffer initialization.
         if(nums == 0)
             System.out.println(nums);
         StringBuffer sb = new StringBuffer();
@@ -21,6 +21,7 @@ public class Solution {
             sb.append(nums%2);
             nums = nums/2;
         }
+        //if(nums!=0)
         System.out.println(sb.reverse().toString());
     }
 }
